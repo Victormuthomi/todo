@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Environment variables
+.env
+
+# SQLite database
+db.sqlite3
+
+# Log files
+*.log
+
+# Swap files (Vim)
+*.swp
+
+# IDE specific files
+.idea/
+
