@@ -45,6 +45,14 @@ INSTALLED_APPS = [
     'todos.apps.TodosConfig', #hew
 ]
 
+#new 
+REST_FRAMEWORK = {
+        'DEFAULT_PERMISSION_CLASS' : [
+          'rest_framework.permissions.AllowAny',
+        ]
+}
+
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
